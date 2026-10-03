@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Demo</title>
+    <link rel="stylesheet" href="./sample.css">
+</head>
+<body>
+
+    <div class="profile-container" id="profile">
+        <h1>Student Profile</h1>
+
+        <h2 id="studentName">Juan Dela Cruz</h2>
+        <p id="studentCourse">BS Computer Science - 3rd Year</p>
+
+        <div class="buttons">
+            <button id="changeName">Change Name</button>
+            <button id="changeBackground">Change Background</button>
+            <button id="toggleDetails" aria-controls="details" aria-expanded="false">Show Details</button>
+        </div>
+
+        <p id="details" class="hidden">
+            <span id="detailsStudentName">Juan Dela Cruz</span> is a third-year BS Computer Science student who enjoys
+            programming and web development.
+        </p>
+    </div>
+<script src="./samplescript.js" charset="UTF-8"></script>
+</body>
+</html>
+  
